@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import { BacktoHome } from "@/components/LogoutButton";
 import { Button } from "@/components/ui/button";
 import { Doctors } from "@/constants";

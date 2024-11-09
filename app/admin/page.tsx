@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import { LogoutButton } from "@/components/LogoutButton";
 import { StatCard } from "@/components/StatCard";
 import { columns } from "@/components/table/columns";
