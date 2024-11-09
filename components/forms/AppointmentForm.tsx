@@ -16,6 +16,7 @@ import {
 import { getAppointmentSchema } from "@/lib/validation";
 import { Appointment } from "@/types/appwrite.types";
 
+
 import "react-datepicker/dist/react-datepicker.css";
 
 import CustomFormField, { FormFieldType } from "../CustomFormField";
@@ -100,6 +101,7 @@ export const AppointmentForm = ({
             status: status as Status,
             cancellationReason: values.cancellationReason,
           },
+          timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
           type,
         };
 

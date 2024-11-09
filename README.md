@@ -10,7 +10,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-A patient management system designed for healthcare, enabling users to quickly sign up, schedule, and manage their doctor appointments. It includes admin features for handling bookings, confirming or canceling visits, and sends SMS notifications—all developed with Next.js.
+A Hospital management system (Mainly focushed on Online Appointment) designed for healthcare, enabling users to quickly sign up, schedule, and manage their doctor appointments. It includes admin features for handling bookings, confirming or canceling visits, and sends SMS notifications—all developed with Next.js.
 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>

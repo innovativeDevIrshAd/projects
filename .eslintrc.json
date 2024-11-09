@@ -1,5 +1,5 @@
 {
-  "plugins": ["import"],
+  "plugins": ["import", "tailwindcss"],
   "extends": [
     "next/core-web-vitals",
     "standard",
@@ -25,6 +25,10 @@
           "caseInsensitive": true
         }
       }
-    ]
+    ],
+    "tailwindcss/classnames-order": "warn", // Allows warnings instead of errors for class order issues
+    "tailwindcss/enforces-shorthand": "warn", // Allows warnings for shorthand usage
+    "react-hooks/exhaustive-deps": "warn", // Warn on missing dependencies in hooks like useEffect or useCallback
+    "object-shorthand": "warn" // Warn on missing object property shorthand
   }
 }

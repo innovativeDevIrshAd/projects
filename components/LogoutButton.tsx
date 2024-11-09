@@ -1,7 +1,7 @@
 "use client"
 import { useRouter } from 'next/navigation';
 
-const LogoutButton = () => {
+export const LogoutButton = () => {
     const router = useRouter();
 
     const handleLogout = () => {
@@ -25,7 +25,7 @@ const LogoutButton = () => {
     );
 };
 
-const BacktoHome = () => {
+export const BacktoHome = () => {
     const router = useRouter();
 
     const handleBackToHome = () => {
@@ -39,7 +39,6 @@ const BacktoHome = () => {
             Back to home
         </button>
     );
-}
+};
 
 
-export { LogoutButton, BacktoHome };
